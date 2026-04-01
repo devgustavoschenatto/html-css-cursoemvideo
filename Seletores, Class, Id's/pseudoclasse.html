@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo classes</title>
+    <style>
+        .d1 {
+            width: 150px;
+            height: 150px;
+            background-color: grey;
+            display: inline-block;
+            border: 1px solid black;
+        }
+
+        .d1:hover {
+            background-color: red;
+        }
+
+
+        /*
+        classe > elemento
+        significa que esta indicando algum filho
+        */
+
+        #textoescondido>p {
+            display: none;
+        }
+
+        #textoescondido:hover>p {
+            display: block;
+            background-color: yellowgreen;
+            font-size: large;
+            color: rgb(0, 0, 0);
+            width: 105px;
+            height: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d1">01</div>
+    <div class="d1">02</div>
+    <div class="d1">03</div>
+
+    <br>
+    <br>
+    <br>
+
+    <h2>Exemplos</h2>
+    <h3>passe o mouse sobre o texto abaixo</h3>
+    <div id="textoescondido">
+        passe o mouse aqui!
+        <p>texto escodido</p>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

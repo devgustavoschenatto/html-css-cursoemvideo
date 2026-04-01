@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        a {
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: darkslategrey;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        a:active {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a::after {
+            content: '';
+            color: grey;
+        }
+
+        a::before {
+            content: '';
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a target="_blank" href="https://www.youtube.com/">Youtube</a></li>
+        <li><a target="_blank" href="https://www.last.fm/pt/user/gustxvv">Last.fm</a></li>
+        <li><a target="_blank" href="https://www.reddit.com/?feed=home">Reddit</a></li>
+    </ul>
+</body>
+
+</html>
