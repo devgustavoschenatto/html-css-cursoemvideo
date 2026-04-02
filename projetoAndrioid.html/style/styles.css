@@ -59,7 +59,7 @@ header > p{
     margin: auto;
     padding-left: 10px;
     padding-left: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 30px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.565);
 }
 
@@ -74,7 +74,7 @@ nav > a{
     color: var(--cor1);
     padding: 10px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
     transition-duration: .3s;
 }
 
@@ -103,6 +103,7 @@ main h1 {
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
+    text-align: center;
 }
 main h2{
     font-family: var(--fonte-android);
